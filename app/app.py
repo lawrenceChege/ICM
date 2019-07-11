@@ -42,3 +42,8 @@ plt.figure(2)
 plt.plot(freqs, fft_vals, label='raw fft values')
 plt.title('Raw FFt values')
 plt.show()
+
+plt.figure(3)
+plt.plot(freqs[mask], fft_theo[mask], label='True fft values')
+plt.title('True fft values')
+plt.show()
